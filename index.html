@@ -23,7 +23,19 @@
         </header>
 
         <section id="main_content">
-          <p>Welcome to ReadOps! We're starting with <a href="http://www.amazon.com/Search-Certainty-Science-Information-Infrastructure-ebook/dp/B00ENEEWYO/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1398782586&amp;sr=1-1&amp;keywords=in+search+of+certainty">In Search of Certainty</a> by Mark Burgess. Tweet <a href="https://twitter.com/bscofield">@bscofield</a> if you want more details </p>
+          <iframe id="forum_embed"
+            src="javascript:void(0)"
+            scrolling="no"
+            frameborder="0"
+            width="900"
+            height="700">
+          </iframe>
+          <script type="text/javascript">
+            document.getElementById('forum_embed').src =
+               'https://groups.google.com/forum/embed/?place=forum/readops'
+               + '&showsearch=false&showpopout=false&showtabs=false&hideforumtitle=true'
+               + '&parenturl=' + encodeURIComponent(window.location.href);
+          </script>
         </section>
 
         <footer>
